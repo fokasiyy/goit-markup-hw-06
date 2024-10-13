@@ -48,17 +48,31 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>Close</button>
+          <nav class="mobile-menu-nav">Navigation</nav>
+          <address>Address</address>
+        </div>
       </div>
     </header>
-    <main class="page-main">
-      <section class="section-main">
+    <main class="page-main hidden">
+      <section class="section-main hidden">
         <div class="container">
           <h1 class="logo-main">Effective Solutions for Your Business</h1>
-          <button class="main-ti" type="button">Order Service</button>
+          <button class="main-ti" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
-      <section class="container-num">
+      <section class="container-num hidden">
         <div class="container">
           <h2 class="visually-hidden">name</h2>
           <ul class="container-hero">
@@ -114,7 +128,7 @@
         </div>
       </section>
 
-      <section class="secrion-three">
+      <section class="secrion-three hidden">
         <div class="container">
           <h2 class="secrion-team">Our Team</h2>
           <ul class="container-foto">
@@ -298,7 +312,7 @@
         </div>
       </section>
 
-      <section class="container-free">
+      <section class="container-free hidden">
         <div class="container">
           <h2 class="section-portfolio">Our Portfolio</h2>
           <ul class="container-port">
@@ -425,7 +439,7 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container corto-footer">
         <div class="one-logos">
           <a class="logo footer-logo" href="./index.html"
@@ -490,7 +504,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-backdrop is-open">
+    <div class="modal-backdrop is-open hidden" data-modal>
       <div class="modal">
         <button class="modal-footer-button" type="button" data-modal-close>
           <svg class="footer-social-btn" width="8" height="8">
@@ -578,5 +592,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
