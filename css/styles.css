@@ -49,7 +49,7 @@ button {
   cursor: pointer;
 }
 
-/*-----------------------------common----------------------------------*/
+/*Common*/
 
 .container {
   max-width: 320px;
@@ -69,7 +69,7 @@ button {
   }
 }
 
-/*-----------------------------Header--------------------------------------*/
+/*Header*/
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -198,7 +198,7 @@ button {
   }
 }
 
-/*------------------------Mobile menu-------------------------*/
+/*Mobile menu*/
 
 .mobile-menu {
   position: fixed;
