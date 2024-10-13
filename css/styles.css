@@ -198,7 +198,7 @@ button {
   }
 }
 
-/*Mobile menu*/
+/*------------------------Mobile menu-------------------------*/
 
 .mobile-menu {
   position: fixed;
@@ -338,6 +338,7 @@ button {
     display: none;
   }
 }
+
 /*------------------------Title section-------------------*/
 
 .title-section {
